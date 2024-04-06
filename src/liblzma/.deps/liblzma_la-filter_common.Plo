@@ -1,0 +1,99 @@
+liblzma_la-filter_common.lo: common/filter_common.c \
+  common/filter_common.h common/common.h ../../src/common/sysdefs.h \
+  ../../config.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/stddef.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_size_t.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_wchar_t.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_null.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/inttypes.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/stdint.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/limits.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/stdbool.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  ../../src/common/mythread.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/sched.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/time.h \
+  ../../src/common/tuklib_integer.h ../../src/common/tuklib_common.h \
+  ../../src/common/tuklib_config.h \
+  /workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/byteswap.h \
+  ../../src/liblzma/api/lzma.h ../../src/liblzma/api/lzma/version.h \
+  ../../src/liblzma/api/lzma/base.h ../../src/liblzma/api/lzma/vli.h \
+  ../../src/liblzma/api/lzma/check.h ../../src/liblzma/api/lzma/filter.h \
+  ../../src/liblzma/api/lzma/bcj.h ../../src/liblzma/api/lzma/delta.h \
+  ../../src/liblzma/api/lzma/lzma.h \
+  ../../src/liblzma/api/lzma/container.h \
+  ../../src/liblzma/api/lzma/stream_flags.h \
+  ../../src/liblzma/api/lzma/block.h ../../src/liblzma/api/lzma/index.h \
+  ../../src/liblzma/api/lzma/index_hash.h \
+  ../../src/liblzma/api/lzma/hardware.h
+common/filter_common.h:
+common/common.h:
+../../src/common/sysdefs.h:
+../../config.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/stddef.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_ptrdiff_t.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_size_t.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_wchar_t.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_null.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_max_align_t.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/__stddef_offsetof.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/inttypes.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/inttypes.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/stdint.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/limits.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/limits.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/assert.h:
+/workspace/WasmFlash/emsdk/upstream/lib/clang/19/include/stdbool.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/string.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/strings.h:
+../../src/common/mythread.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/pthread.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/sched.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/compat/time.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/time.h:
+../../src/common/tuklib_integer.h:
+../../src/common/tuklib_common.h:
+../../src/common/tuklib_config.h:
+/workspace/WasmFlash/emsdk/upstream/emscripten/cache/sysroot/include/byteswap.h:
+../../src/liblzma/api/lzma.h:
+../../src/liblzma/api/lzma/version.h:
+../../src/liblzma/api/lzma/base.h:
+../../src/liblzma/api/lzma/vli.h:
+../../src/liblzma/api/lzma/check.h:
+../../src/liblzma/api/lzma/filter.h:
+../../src/liblzma/api/lzma/bcj.h:
+../../src/liblzma/api/lzma/delta.h:
+../../src/liblzma/api/lzma/lzma.h:
+../../src/liblzma/api/lzma/container.h:
+../../src/liblzma/api/lzma/stream_flags.h:
+../../src/liblzma/api/lzma/block.h:
+../../src/liblzma/api/lzma/index.h:
+../../src/liblzma/api/lzma/index_hash.h:
+../../src/liblzma/api/lzma/hardware.h:
